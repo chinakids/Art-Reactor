@@ -11,7 +11,7 @@
 -  *、基础环境：node、git、bower、grunt
 
 
-#####1.2 安装进项目
+#####1.2 安装项目
 
 - 1、 `bower install https://github.com/chinakids/FontIco.git --save`
 
@@ -21,10 +21,11 @@
 -   1.源文件包含less源码、字体、svg图，目录结构如下
 
 		┬─FontIco
-		├ css  （css目录）
-		├ less （less源码目录）
-		├ font （字体目录）
-		├ svg  （SVG目录）
+		├ css/  （css目录）
+		├ less/ （less源码目录）
+		├ font/ （字体目录）
+		├ svg/  （SVG目录）
+		├ doc/  （说明文档目录）
 		···
 
 ###3.涉及技能
