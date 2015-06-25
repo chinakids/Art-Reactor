@@ -1,0 +1,31 @@
+{
+  "name": "FontIco",
+  "version": "1.0.0",
+  "description": "一个基于字体的适量图标库，团队内部积累用",
+  "main": "dist/fontIco.min.css",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chinakids/FontIco.git"
+  },
+  "keywords": [
+    "font-face",
+    "字体图标",
+    "矢量图标"
+  ],
+  "author": [
+    "chinakids <494063570@qq.com>",
+    "hudiesu <zx84829759@163.com>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chinakids/FontIco/issues"
+  },
+  "homepage": "https://github.com/chinakids/FontIco",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-less": "^1.0.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "load-grunt-tasks": "^3.1.0",
+    "time-grunt": "^1.0.0"
+  }
+}
