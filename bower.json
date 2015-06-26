@@ -7,7 +7,7 @@
     "hudiesu <zx84829759@163.com>"
   ],
   "description": "一个基于字体的适量图标库，团队内部积累用",
-  "main": "css/font-ico.css",
+  "main": "dist/font-ico.min.css",
   "keywords": [
     "font-face",
     "字体图标",

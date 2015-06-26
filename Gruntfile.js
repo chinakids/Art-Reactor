@@ -32,7 +32,7 @@ module.exports = function(grunt) {
           sourceMap:true
         },
         files: {
-          "dest/frontIco.min.css": "less/frontIco.less",
+          "dist/frontIco.min.css": "less/frontIco.less",
         }
       }
     }
