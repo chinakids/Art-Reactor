@@ -13,14 +13,14 @@
 
 #####1.2 安装项目
 
-- 1、 `bower install https://github.com/chinakids/FontIco.git --save`
+- 1、 `bower install https://github.com/chinakids/Font-Reactor.git --save`
 
 
 ###2.备注
 
 -   1.源文件包含less源码、字体、svg图，目录结构如下
 
-		┬─FontIco
+		┬─Font-Reactor
 		├ css/  （css目录）
 		├ less/ （less源码目录）
 		├ font/ （字体目录）
