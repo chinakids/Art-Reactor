@@ -2,8 +2,6 @@
 一个基于字体的适量图标库，团队内部积累用
 
 
-[![npm version](https://badge.fury.io/js/engine.io.svg)](http://badge.fury.io/js/engine.io)
-
 ###1.安装
 
 #####1.1 环境配置
