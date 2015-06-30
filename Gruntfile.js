@@ -22,7 +22,7 @@ module.exports = function(grunt) {
           sourceMap:false
         },
         files: {
-          "css/frontIco.css": "less/frontIco.less",
+          "css/font-reactor.css": "less/font-reactor.less",
         }
       },
       compress:{
@@ -32,7 +32,7 @@ module.exports = function(grunt) {
           sourceMap:true
         },
         files: {
-          "dist/frontIco.min.css": "less/frontIco.less",
+          "dist/font-reactor.min.css": "less/font-reactor.less",
         }
       }
     }

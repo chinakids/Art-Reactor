@@ -1,13 +1,13 @@
 {
-  "name": "FontIco",
-  "version": "1.0.0",
-  "homepage": "https://github.com/chinakids/FontIco",
+  "name": "Font-Reactor",
+  "version": "1.1.0",
+  "homepage": "https://github.com/chinakids/Font-Reactor",
   "authors": [
     "chinakids <494063570@qq.com>",
     "hudiesu <zx84829759@163.com>"
   ],
   "description": "一个基于字体的适量图标库，团队内部积累用",
-  "main": "dist/font-ico.min.css",
+  "main": "dist/Font-Reactor.min.css",
   "keywords": [
     "font-face",
     "字体图标",
