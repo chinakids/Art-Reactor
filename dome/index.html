@@ -6,10 +6,25 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../dist/art-reactor.min.css">
     <style>
+      ul,li{
+        list-style: none;
+      }
       .header .form-group {
         position: relative;
         top: 7px;
+      }
+      .ar{
+        float: left;
+        margin-right: 10px;
+        font-size: 24px;
+      }
+      li{
+        width: 20%;
+        padding: 10px 0;
+        line-height: 24px;
+        float: left;
       }
     </style>
   </head>
@@ -21,14 +36,18 @@
             <a class="navbar-brand" href="#/">Art-Reactor | 字体图标集</a>
           </div>
           <div class="form-group pull-right col-xs-3">
-            <input type="search" class="form-control"  placeholder="输入关键字搜索···">
+            <input type="search" class="form-control" ng-model="search.cls" placeholder="输入关键字搜索···">
           </div>
         </div>
       </div>
     </div>
 
     <div class="container">
-      {{test}}
+      <ul class="clearfix">
+        <li ng-repeat="item in list| filter:search"><i class="ar ar-{{item.cls}}"></i><p>
+          {{item.cls}}
+        </p></li>
+      </ul>
     </div>
     <br>
     <br>
@@ -37,17 +56,20 @@
         <p><span class="glyphicon glyphicon-heart"></span> from the Art-Reactor team</p>
       </div>
     </div>
+    <script src="art-reactor.js"></script>
 
     <script src="bower_components/jquery/dist/jquery.js"></script>
     <script src="bower_components/angular/angular.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+
     <script>
       angular.module('FontReactor',[])
-      .controller('MainCtrl', ['$scope', function($scope){
+      .controller('MainCtrl', ['$scope','$http',function($scope,$http){
+      
         $scope.test = 'holle word!';
-      }])
-
+        $scope.list = data;
+      }]);
     </script>
 </body>
 </html>

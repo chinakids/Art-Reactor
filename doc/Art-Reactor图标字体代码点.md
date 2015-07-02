@@ -1,10 +1,10 @@
 ## 图标字体第二期代码点 ##
-        
+
 <table>
 		<tr>
 			<td>错误警告</td>
 			<td>exclamation-sign</td>
-            <td>$F000</td>    
+            <td>$F000</td>
 		</tr>
 		<tr>
 			<td>日期</td>
@@ -208,7 +208,7 @@
 		</tr>
 		<tr>
 			<td>取消</td>
-			<td>cancel</td>，，，
+			<td>cancel</td>
 			<td>$F02C</td>
 		</tr>
 		<tr>
@@ -494,7 +494,7 @@
 		<tr>
 			<td>钥匙</td>
 			<td>key-empty</td>
-            <td>$F068</td>    
+            <td>$F068</td>
 		</tr>
 		<tr>
 			<td>主页-实心</td>
@@ -698,7 +698,7 @@
 		</tr>
 		<tr>
 			<td>右对齐</td>
-			<td>align-right</td>，，，
+			<td>align-right</td>
 			<td>$F094</td>
 		</tr>
 		<tr>
