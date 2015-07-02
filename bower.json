@@ -1,0 +1,24 @@
+{
+  "name": "Art-Reactor",
+  "version": "3.4",
+  "homepage": "https://github.com/chinakids/Art-Reactor",
+  "authors": [
+    "chinakids <494063570@qq.com>",
+    "hudiesu <zx84829759@163.com>"
+  ],
+  "description": "一个基于字体的适量图标库，团队内部积累用",
+  "main": "dist/art-reactor.min.css",
+  "keywords": [
+    "font-face",
+    "字体图标",
+    "矢量图标"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
