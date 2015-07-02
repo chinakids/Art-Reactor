@@ -12,7 +12,7 @@
 
 #####1.2 安装项目
 
-- 1、 `bower install https://github.com/chinakids/Font-Reactor.git --save`
+- 1、 `bower install https://github.com/chinakids/Art-Reactor.git --save`
 
 
 ###2.备注
@@ -26,7 +26,7 @@
 		├ svg/  （SVG目录）
 		├ doc/  （说明文档目录）
 		├ test/ （测试目录）
-    	├ dest/ （压缩版本）
+    ├ dest/ （压缩版本）
 		···
 
 ###3.涉及技能
