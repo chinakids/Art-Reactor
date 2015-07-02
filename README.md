@@ -1,5 +1,5 @@
-# Font-Reactor
-一个基于字体的适量图标库，团队内部积累用
+# Art-Reactor
+一个基于字体的适量图标库，团队内部积累用,详细图标字体戳这里 [Art-Reactor](http://chinakids.github.io/Art-Reactor/dome/index.html)
 
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 
