@@ -22,7 +22,7 @@ module.exports = function(grunt) {
           sourceMap:false
         },
         files: {
-          "css/font-reactor.css": "less/font-reactor.less",
+          "css/art-reactor.css": "less/art-reactor.less",
         }
       },
       compress:{
@@ -32,7 +32,7 @@ module.exports = function(grunt) {
           sourceMap:true
         },
         files: {
-          "dist/font-reactor.min.css": "less/font-reactor.less",
+          "dist/art-reactor.min.css": "less/art-reactor.less",
         }
       }
     }
