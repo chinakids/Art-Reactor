@@ -443,7 +443,7 @@
 		</tr>
 		<tr>
 			<td>设置b</td>
-			<td>setuo</td>
+			<td>setup</td>
 			<td>$F05D</td>
 		</tr>
 		<tr>
