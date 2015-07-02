@@ -1,6 +1,6 @@
 @charset 'utf-8';
 /*
- * Art-Reactor - v1.1.0 (2015-07-02 17:20)
+ * Art-Reactor - v1.1.0 (2015-07-02 17:26)
  * 一个基于字体的适量图标库，团队内部积累用
  * Author:chinakids <494063570@qq.com>,hudiesu <zx84829759@163.com>
  */
@@ -430,7 +430,7 @@
 .ar-share-link:after {
   content: "\F05C";
 }
-.ar-setuo:after {
+.ar-setup:after {
   content: "\F05D";
 }
 .ar-doge:after {
