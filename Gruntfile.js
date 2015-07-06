@@ -12,7 +12,11 @@ module.exports = function(grunt) {
 		        'less/**/*.less'
 		    ],
 		    tasks: ['less']
-		  }
+		  },
+			md : [
+				'doc/**/*.md'
+			],
+			tasks :['artReactorBuild']
 		},
 		less: {
       fontIco: {
@@ -22,7 +26,7 @@ module.exports = function(grunt) {
           sourceMap:false
         },
         files: {
-          "css/font-reactor.css": "less/font-reactor.less",
+          "css/art-reactor.css": "less/art-reactor.less",
         }
       },
       compress:{
@@ -32,7 +36,25 @@ module.exports = function(grunt) {
           sourceMap:true
         },
         files: {
-          "dist/font-reactor.min.css": "less/font-reactor.less",
+          "dist/art-reactor.min.css": "less/art-reactor.less",
+        }
+      }
+    },
+		artReactorBuild: {
+      less: {
+        options: {
+          outputType: "less"
+        },
+        files: {
+          "less/ico.less": "doc/Art-Reactor图标字体代码点.md"
+        }
+      },
+      json: {
+        options: {
+          outputType: "json"
+        },
+        files: {
+          "dome/art-reactor.js": "doc/Art-Reactor图标字体代码点.md"
         }
       }
     }
@@ -40,7 +62,9 @@ module.exports = function(grunt) {
 
     // 注冊任务
     grunt.registerTask('default', [
-    	'less',
+    	'less:fontIco',
+      'less:compress',
+			'artReactorBuild',
       'watch'
   	]);
     grunt.event.on('watch', function(action, filepath, target) {

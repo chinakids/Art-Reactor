@@ -1,5 +1,5 @@
-# Font-Reactor
-一个基于字体的适量图标库，团队内部积累用
+# Art-Reactor
+一个基于字体的适量图标库，团队内部积累用,详细图标字体戳这里 [Art-Reactor](http://chinakids.github.io/Art-Reactor/dome/index.html)
 
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 
@@ -12,7 +12,7 @@
 
 #####1.2 安装项目
 
-- 1、 `bower install https://github.com/chinakids/Font-Reactor.git --save`
+- 1、 `bower install https://github.com/chinakids/Art-Reactor.git --save`
 
 
 ###2.备注
@@ -26,7 +26,7 @@
 		├ svg/  （SVG目录）
 		├ doc/  （说明文档目录）
 		├ test/ （测试目录）
-    	├ dest/ （压缩版本）
+    	├ dist/ （压缩版本）
 		···
 
 ###3.涉及技能
@@ -56,6 +56,10 @@
 - 等待补充
 
 ###8.更新说明
+##### V3.4(2015-06-27)
+- 名称变更
+  Font-Reactor -> Art-Reactor
+- 第一个可用版本
 
 ##### V1.1.0(2015-06-27)
 - 名称变更
