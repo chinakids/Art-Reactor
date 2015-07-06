@@ -30,6 +30,9 @@
         margin-top: -7px;
         margin-left: -40px;
       }
+      code{
+        padding: 10px;
+      }
     </style>
   </head>
   <body ng-app="FontReactor" ng-controller="MainCtrl">
@@ -48,10 +51,32 @@
 
     <div class="container">
       <ul class="clearfix">
-      <li ng-repeat="item in list| filter:search" data-toggle="popover" title="{{item.des}}" data-placement="bottom" data-content="<i class='ra ra-{{item.cls}}'></i>"><i class="ar ar-{{item.cls}}"></i><p ng-bind="item.cls">
+      <li ng-repeat="item in list| filter:search" ng-click="modeal(item)"><i class="ar ar-{{item.cls}}"></i><p ng-bind="item.cls">
           加载中···
         </p></li>
       </ul>
+      <!-- Modal -->
+      <div class="modal fade" ng-class="{'in':click}" id="myModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" ng-click="close()"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title" id="myModalLabel">{{title}}</h4>
+            </div>
+            <div class="modal-body clearfix">
+              <div class="col-xs-12 clearfix">
+                <i class="ar ar-{{class}}" style="font-size:46px"></i>
+                <i class="ar ar-{{class}}" style="font-size:34px"></i>
+                <i class="ar ar-{{class}}" style="font-size:22px"></i>
+              </div>
+              <br><br><br><br>
+              <div class="col-xs-12 clearfix"><code>&lt;i class="ar ar-{{class}}"&gt;&lt;/i&gt;</code></div>
+              <br><br>
+              <div class="col-xs-12 clearfix">Unicode : {{unicode}}</div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <br>
     <br>
@@ -69,12 +94,19 @@
       .controller('MainCtrl', ['$scope','$http',function($scope,$http){
         $scope.test = 'holle word!';
         $scope.list = data;
-        setTimeout(function(){
-          $('li[data-toggle="popover"]').popover();
-        },data.length*2)
+        $scope.click = false;
+        $scope.modeal = function(item){
+          $scope.click = true;
+          $scope.title = item.des;
+          $scope.class = item.cls;
+          $scope.unicode = '\\' + item.cont;
+          angular.element(document.getElementById('myModal')).css({'display':'block'})
+        }
+        $scope.close = function(){
+          $scope.click = false;
+          angular.element(document.getElementById('myModal')).css({'display':'none'})
+        }
       }]);
     </script>
 </body>
-<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
-<script src="http://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </html>
