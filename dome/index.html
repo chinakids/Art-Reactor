@@ -26,6 +26,10 @@
         line-height: 24px;
         float: left;
       }
+      .popover.bottom {
+        margin-top: -7px;
+        margin-left: -40px;
+      }
     </style>
   </head>
   <body ng-app="FontReactor" ng-controller="MainCtrl">
@@ -44,7 +48,7 @@
 
     <div class="container">
       <ul class="clearfix">
-        <li ng-repeat="item in list| filter:search"><i class="ar ar-{{item.cls}}"></i><p ng-bind="item.cls">
+      <li ng-repeat="item in list| filter:search" data-toggle="popover" title="{{item.des}}" data-placement="bottom" data-content="<i class='ra ra-{{item.cls}}'></i>"><i class="ar ar-{{item.cls}}"></i><p ng-bind="item.cls">
           加载中···
         </p></li>
       </ul>
@@ -63,10 +67,14 @@
     <script>
       angular.module('FontReactor',[])
       .controller('MainCtrl', ['$scope','$http',function($scope,$http){
-      
         $scope.test = 'holle word!';
         $scope.list = data;
+        setTimeout(function(){
+          $('li[data-toggle="popover"]').popover();
+        },data.length*2)
       }]);
     </script>
 </body>
+<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </html>
