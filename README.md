@@ -49,7 +49,7 @@
 ###6.贡献者
 - 排名不分先后
   
-  @hudiesu
+  [@hudiesu](http://github.com/hudiesu)
 
 
 ###7.下阶段开发计划
