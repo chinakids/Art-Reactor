@@ -1,6 +1,6 @@
 @charset 'utf-8';
 /*
- * Art-Reactor - v1.1.0 (2015-07-02 17:26)
+ * Art-Reactor - v1.1.0 (2015-07-09 12:05)
  * 一个基于字体的适量图标库，团队内部积累用
  * Author:chinakids <494063570@qq.com>,hudiesu <zx84829759@163.com>
  */
@@ -753,4 +753,124 @@
 }
 .ar-battery-half:after {
   content: "\F130";
+}
+.ar-loading-a:after {
+  content: "\F131";
+}
+.ar-loading-b:after {
+  content: "\F132";
+}
+.ar-loading-c:after {
+  content: "\F133";
+}
+.ar-loading-d:after {
+  content: "\F134";
+}
+.ar-loading-e:after {
+  content: "\F135";
+}
+.ar-loading-f:after {
+  content: "\F136";
+}
+.ar-qr-code:after {
+  content: "\F137";
+}
+.ar-flicking:after {
+  content: "\F138";
+}
+.ar-barcode:after {
+  content: "\F139";
+}
+.ar-positive-sequence:after {
+  content: "\F13A";
+}
+.ar-nverted-sequence:after {
+  content: "\F13B";
+}
+.ar-earphone:after {
+  content: "\F13C";
+}
+.ar-microphone:after {
+  content: "\F13D";
+}
+.ar-play:after {
+  content: "\F13E";
+}
+.ar-fast-forward:after {
+  content: "\F140";
+}
+.ar-rewind:after {
+  content: "\F141";
+}
+.ar-stop:after {
+  content: "\F142";
+}
+.ar-exit:after {
+  content: "\F143";
+}
+.ar-pause:after {
+  content: "\F144";
+}
+.ar-play-a:after {
+  content: "\F145";
+}
+.ar-ff-a:after {
+  content: "\F146";
+}
+.ar-rewind-a:after {
+  content: "\F147";
+}
+.ar-stop-a:after {
+  content: "\F148";
+}
+.ar-exit-a:after {
+  content: "\F149";
+}
+.ar-pause-a:after {
+  content: "\F14A";
+}
+.ar-stop-b:after {
+  content: "\F14B";
+}
+.ar-exit-b:after {
+  content: "\F14C";
+}
+.ar-play-b:after {
+  content: "\F14D";
+}
+.ar-hamburger:after {
+  content: "\F14E";
+}
+.ar-poached-egg:after {
+  content: "\F150";
+}
+.ar-drumstick:after {
+  content: "\F151";
+}
+.ar-juice:after {
+  content: "\F152";
+}
+.ar-coffee:after {
+  content: "\F153";
+}
+.ar-milky-tea:after {
+  content: "\F154";
+}
+.ar-red-wine:after {
+  content: "\F155";
+}
+.ar-wine:after {
+  content: "\F156";
+}
+.ar-apple:after {
+  content: "\F157";
+}
+.ar-fish-a:after {
+  content: "\F158";
+}
+.ar-fish-b:after {
+  content: "\F159";
+}
+.ar-strawberry:after {
+  content: "\F15A";
 }
