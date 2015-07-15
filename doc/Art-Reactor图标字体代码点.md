@@ -1,14 +1,15 @@
 ## 图标字体第二期代码点 ##
 
+
 <table>
 		<tr>
 			<td>错误警告</td>
 			<td>exclamation-sign</td>
-            <td>$F000</td>
+      <td>$F000</td>
 		</tr>
 		<tr>
 			<td>日期</td>
-            <td>calender</td>
+      <td>calender</td>
 			<td>$F001</td>
 		</tr>
 		<tr>
@@ -981,56 +982,204 @@
 			<td>battery-half</td>
 			<td>$F130</td>
 		</tr>
+		<tr>
 			<td>loading-a</td>
 			<td>loading-a</td>
 			<td>$F131</td>
 		</tr>
+		<tr>
 			<td>loading-b</td>
 			<td>loading-b</td>
 			<td>$F132</td>
 		</tr>
+		<tr>
 			<td>loading-c</td>
 			<td>loading-c</td>
 			<td>$F133</td>
 		</tr>
+		<tr>
 			<td>loading-d</td>
 			<td>loading-d</td>
 			<td>$F134</td>
 		</tr>
+		<tr>
 			<td>loading-e</td>
 			<td>loading-e</td>
 			<td>$F135</td>
 		</tr>
+		<tr>
 			<td>loading-f</td>
 			<td>loading-f</td>
 			<td>$F136</td>
 		</tr>
+		<tr>
 			<td>二维码</td>
 			<td>qr-code</td>
 			<td>$F137</td>
 		</tr>
+		<tr>
 			<td>扫一扫</td>
 			<td>flicking</td>
 			<td>$F138</td>
 		</tr>
+		<tr>
 			<td>条纹码</td>
 			<td>barcode</td>
 			<td>$F139</td>
 		</tr>
+		<tr>
 			<td>正序</td>
 			<td>positive-sequence</td>
 			<td>$F13A</td>
 		</tr>
+		<tr>
 			<td>反序</td>
 			<td>nverted-sequence</td>
 			<td>$F13B</td>
 		</tr>
+		<tr>
 			<td>耳机</td>
 			<td>earphone</td>
 			<td>$F13C</td>
 		</tr>
+		<tr>
 			<td>话筒</td>
 			<td>microphone</td>
 			<td>$F13D</td>
+		</tr>
+		<tr>
+			<td>播放器</td>
+			<td>play</td>
+			<td>$F13E</td>
+		</tr>
+		<tr>
+			<td>快进</td>
+			<td>fast-forward</td>
+			<td>$F140</td>
+		</tr>
+		<tr>
+			<td>快退</td>
+			<td>rewind</td>
+			<td>$F141</td>
+		</tr>
+		<tr>
+			<td>停止</td>
+			<td>stop</td>
+			<td>$F142</td>
+		</tr>
+		<tr>
+			<td>退出</td>
+			<td>exit</td>
+			<td>$F143</td>
+		</tr>
+		<tr>
+			<td>暂停</td>
+			<td>pause</td>
+			<td>$F144</td>
+		</tr>
+		<tr>
+			<td>播放a</td>
+			<td>play-a</td>
+			<td>$F145</td>
+		</tr>
+		<tr>
+			<td>快进a</td>
+			<td>ff-a</td>
+			<td>$F146</td>
+		</tr>
+		<tr>
+			<td>快退a</td>
+			<td>rewind-a</td>
+			<td>$F147</td>
+		</tr>
+		<tr>
+			<td>停止a</td>
+			<td>stop-a</td>
+			<td>$F148</td>
+		</tr>
+		<tr>
+			<td>退出a</td>
+			<td>exit-a</td>
+			<td>$F149</td>
+		</tr>
+		<tr>
+			<td>暂停a</td>
+			<td>pause-a</td>
+			<td>$F14A</td>
+		</tr>
+		<tr>
+			<td>暂停b</td>
+			<td>stop-b</td>
+			<td>$F14B</td>
+		</tr>
+		<tr>
+			<td>退出b</td>
+			<td>exit-b</td>
+			<td>$F14C</td>
+		</tr>
+		<tr>
+			<td>播放b</td>
+			<td>play-b</td>
+			<td>$F14D</td>
+		</tr>
+		<tr>
+			<td>汉堡</td>
+			<td>hamburger</td>
+			<td>$F14E</td>
+		</tr>
+		<tr>
+			<td>荷包蛋</td>
+			<td>poached-egg</td>
+			<td>$F150</td>
+		</tr>
+		<tr>
+			<td>鸡腿</td>
+			<td>drumstick</td>
+			<td>$F151</td>
+		</tr>
+		<tr>
+			<td>果汁</td>
+			<td>juice</td>
+			<td>$F152</td>
+		</tr>
+		<tr>
+			<td>咖啡</td>
+			<td>coffee</td>
+			<td>$F153</td>
+		</tr>
+		<tr>
+			<td>奶茶</td>
+			<td>milky-tea</td>
+			<td>$F154</td>
+		</tr>
+		<tr>
+			<td>红酒</td>
+			<td>red-wine</td>
+			<td>$F155</td>
+		</tr>
+		<tr>
+			<td>酒</td>
+			<td>wine</td>
+			<td>$F156</td>
+		</tr>
+		<tr>
+			<td>苹果</td>
+			<td>apple</td>
+			<td>$F157</td>
+		</tr>
+		<tr>
+			<td>鱼a</td>
+			<td>fish-a</td>
+			<td>$F158</td>
+		</tr>
+		<tr>
+			<td>鱼b</td>
+			<td>fish-b</td>
+			<td>$F159</td>
+		</tr>
+		<tr>
+			<td>草莓</td>
+			<td>strawberry</td>
+			<td>$F15A</td>
 		</tr>
 	</table>
