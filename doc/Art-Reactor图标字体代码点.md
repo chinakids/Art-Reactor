@@ -1280,7 +1280,7 @@
 	<tr>
 			<td>夜晚</td>
 			<td>night</td>
-			<td>$F170/td>
+			<td>$F170</td>
 		</tr>
 	<tr>
 			<td>雨夜-b</td>
@@ -1369,7 +1369,7 @@
 		</tr>
 	<tr>
 			<td>米信</td>
-			<td>michat
+			<td>michat</td>
 			<td>$F183</td>
 		</tr>
 	<tr>

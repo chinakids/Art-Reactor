@@ -1,6 +1,6 @@
 @charset 'utf-8';
 /*
- * Art-Reactor - v1.1.0 (2015-07-09 12:05)
+ * Art-Reactor - v3.6.0 (2015-07-24 08:49)
  * 一个基于字体的适量图标库，团队内部积累用
  * Author:chinakids <494063570@qq.com>,hudiesu <zx84829759@163.com>
  */
@@ -873,4 +873,178 @@
 }
 .ar-strawberry:after {
   content: "\F15A";
+}
+.ar-qiuzu:after {
+  content: "\F15B";
+}
+.ar-chushou:after {
+  content: "\F15C";
+}
+.ar-chuzu:after {
+  content: "\F15D";
+}
+.ar-qiuzu:after {
+  content: "\F15E";
+}
+.ar-game:after {
+  content: "\F160";
+}
+.ar-print:after {
+  content: "\F161";
+}
+.ar-nail:after {
+  content: "\F162";
+}
+.ar-alarmclock:after {
+  content: "\F163";
+}
+.ar-volumeegulate:after {
+  content: "\F164";
+}
+.ar-compass:after {
+  content: "\F165";
+}
+.ar-amplify-c:after {
+  content: "\F166";
+}
+.ar-reduce-c:after {
+  content: "\F167";
+}
+.ar-remind-full:after {
+  content: "\F168";
+}
+.ar-remind:after {
+  content: "\F169";
+}
+.ar-bulb-full:after {
+  content: "\F16A";
+}
+.ar-bulb:after {
+  content: "\F16B";
+}
+.ar-sunny-full:after {
+  content: "\F16C";
+}
+.ar-snow:after {
+  content: "\F16D";
+}
+.ar-night-full:after {
+  content: "\F16E";
+}
+.ar-night:after {
+  content: "\F170";
+}
+.ar-rn-full:after {
+  content: "\F171";
+}
+.ar-rain-night:after {
+  content: "\F172";
+}
+.ar-cloudy-full:after {
+  content: "\F173";
+}
+.ar-cloudy:after {
+  content: "\F174";
+}
+.ar-rain-full:after {
+  content: "\F175";
+}
+.ar-rain:after {
+  content: "\F176";
+}
+.ar-sunny:after {
+  content: "\F177";
+}
+.ar-lighting:after {
+  content: "\F178";
+}
+.ar-sun-full:after {
+  content: "\F179";
+}
+.ar-sun:after {
+  content: "\F17A";
+}
+.ar-ie:after {
+  content: "\F17B";
+}
+.ar-moments:after {
+  content: "\F17C";
+}
+.ar-tencent:after {
+  content: "\F17D";
+}
+.ar-qq-zone:after {
+  content: "\F17E";
+}
+.ar-douban:after {
+  content: "\F180";
+}
+.ar-kaixin:after {
+  content: "\F181";
+}
+.ar-wangchat:after {
+  content: "\F182";
+}
+.ar-t-campus:after {
+  content: "\F184";
+}
+.ar-renren:after {
+  content: "\F185";
+}
+.ar-taobao:after {
+  content: "\F186";
+}
+.ar-t-weibo:after {
+  content: "\F187";
+}
+.ar-wechat:after {
+  content: "\F188";
+}
+.ar-weibo:after {
+  content: "\F189";
+}
+.ar-yichat:after {
+  content: "\F18A";
+}
+.ar-ailipay:after {
+  content: "\F18B";
+}
+.ar-apple:after {
+  content: "\F190";
+}
+.ar-behance:after {
+  content: "\F191";
+}
+.ar-facebook:after {
+  content: "\F192";
+}
+.ar-windows:after {
+  content: "\F193";
+}
+.ar-baidu:after {
+  content: "\F194";
+}
+.ar-info-b:after {
+  content: "\F195";
+}
+.ar-help-b:after {
+  content: "\F196";
+}
+.ar-info:after {
+  content: "\F197";
+}
+.ar-help:after {
+  content: "\F198";
+}
+.ar-triangle-up:after {
+  content: "\F199";
+}
+.ar-triangle-down:after {
+  content: "\F19A";
+}
+.ar-triangle-left:after {
+  content: "\F19B";
+}
+.ar-triangle-right:after {
+  content: "\F19C";
 }
