@@ -418,18 +418,18 @@
 			<td>$F057</td>
 		</tr>
 		<tr>
-			<td>小亿a</td>
-			<td>xiaoyi-a</td>
+			<td>锚点</td>
+			<td>anchor</td>
 			<td>$F058</td>
 		</tr>
 		<tr>
-			<td>小亿b</td>
-			<td>xiaoyi-b</td>
+			<td>平房</td>
+			<td>bungalow</td>
 			<td>$F059</td>
 		</tr>
 		<tr>
-			<td>小亿c</td>
-			<td>xiaoyi-c</td>
+			<td>别墅</td>
+			<td>villa</td>
 			<td>$F05A</td>
 		</tr>
 		<tr>
@@ -1477,4 +1477,74 @@
 			<td>triangle-right</td>
 			<td>$F19C</td>
 		</tr>
-	</table>
+        <tr>
+			<td>电话实心</td>
+			<td>phone-full</td>
+			<td>$F19D</td>
+		</tr>
+     <tr>
+			<td>电话薄</td>
+			<td>phone-c</td>
+			<td>$F19E</td>
+		</tr>
+        <tr>
+			<td>定位实心</td>
+			<td>location-c</td>
+			<td>$F200</td>
+		</tr>
+        <tr>
+			<td>分享实心</td>
+			<td>share-full</td>
+			<td>$F201</td>
+		</tr>
+       <tr>
+			<td>选择-d</td>
+			<td>chooseractangle</td>
+			<td>$F202</td>
+		</tr>
+       <tr>
+			<td>选择-e</td>
+			<td>chooseround</td>
+			<td>$F203</td>
+		</tr>
+       <tr>
+			<td>圆</td>
+			<td>round</td>
+			<td>$F204</td>
+		</tr>
+       <tr>
+			<td>圆角矩形</td>
+			<td>rounded-ractangle</td>
+			<td>$F205</td>
+		</tr>
+       <tr>
+			<td>投票</td>
+			<td>vote</td>
+			<td>$F206</td>
+		</tr>
+       <tr>
+			<td>指示向左</td>
+			<td>point-left</td>
+			<td>$F207</td>
+		</tr>
+       <tr>
+			<td>指示向下</td>
+			<td>point-down</td>
+			<td>$F208</td>
+		</tr>
+       <tr>
+			<td>指示向上</td>
+			<td>point-up</td>
+			<td>$F209</td>
+		</tr>
+       <tr>
+			<td>指示向右</td>
+			<td>point-right</td>
+			<td>$F20A</td>
+		</tr>
+       <tr>
+			<td>移动</td>
+			<td>move</td>
+			<td>$F20B</td>
+		</tr>
+    	</table>
