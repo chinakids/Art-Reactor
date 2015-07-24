@@ -1,6 +1,6 @@
 @charset 'utf-8';
 /*
- * Art-Reactor - v3.6.0 (2015-07-24 08:57)
+ * Art-Reactor - v3.6.0 (2015-07-24 17:57)
  * 一个基于字体的适量图标库，团队内部积累用
  * Author:chinakids <494063570@qq.com>,hudiesu <zx84829759@163.com>
  */
@@ -415,13 +415,13 @@
 .ar-site-info:after {
   content: "\F057";
 }
-.ar-xiaoyi-a:after {
+.ar-anchor:after {
   content: "\F058";
 }
-.ar-xiaoyi-b:after {
+.ar-bungalow:after {
   content: "\F059";
 }
-.ar-xiaoyi-c:after {
+.ar-villa:after {
   content: "\F05A";
 }
 .ar-baymax:after {
@@ -880,10 +880,10 @@
 .ar-chushou:after {
   content: "\F15C";
 }
-.ar-chuzu:after {
+.ar-qiugou:after {
   content: "\F15D";
 }
-.ar-qiuzu:after {
+.ar-chuzu:after {
   content: "\F15E";
 }
 .ar-game:after {
@@ -1050,4 +1050,46 @@
 }
 .ar-triangle-right:after {
   content: "\F19C";
+}
+.ar-phone-full:after {
+  content: "\F19D";
+}
+.ar-phone-c:after {
+  content: "\F19E";
+}
+.ar-location-c:after {
+  content: "\F200";
+}
+.ar-share-full:after {
+  content: "\F201";
+}
+.ar-chooseractangle:after {
+  content: "\F202";
+}
+.ar-chooseround:after {
+  content: "\F203";
+}
+.ar-round:after {
+  content: "\F204";
+}
+.ar-rounded-ractangle:after {
+  content: "\F205";
+}
+.ar-vote:after {
+  content: "\F206";
+}
+.ar-point-left:after {
+  content: "\F207";
+}
+.ar-point-down:after {
+  content: "\F208";
+}
+.ar-point-up:after {
+  content: "\F209";
+}
+.ar-point-right:after {
+  content: "\F20A";
+}
+.ar-move:after {
+  content: "\F20B";
 }

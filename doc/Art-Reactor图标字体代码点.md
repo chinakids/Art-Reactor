@@ -1182,7 +1182,7 @@
 			<td>strawberry</td>
 			<td>$F15A</td>
 		</tr>
-        <tr>
+    <tr>
 			<td>求租</td>
 			<td>qiuzu</td>
 			<td>$F15B</td>
@@ -1193,21 +1193,21 @@
 			<td>$F15C</td>
 		</tr>
 	    <tr>
-			<td>出租</td>
-			<td>chuzu</td>
+			<td>求购</td>
+			<td>qiugou</td>
 			<td>$F15D</td>
 		</tr>
-        <tr>
-			<td>求租</td>
-			<td>qiuzu</td>
+    <tr>
+			<td>出租</td>
+			<td>chuzu</td>
 			<td>$F15E</td>
 		</tr>
-	<tr>
+	  <tr>
 			<td>游戏</td>
 			<td>game</td>
 			<td>$F160</td>
 		</tr>
-	<tr>
+	  <tr>
 			<td>打印</td>
 			<td>print</td>
 			<td>$F161</td>
