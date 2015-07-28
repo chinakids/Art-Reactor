@@ -12,7 +12,7 @@
 
 #####1.2 安装项目
 
-- 1、 `bower install https://github.com/chinakids/Art-Reactor.git --save`
+- 1、 `bower install https://github.com/chinakids/Art-Reactor.git --save` or `bower install Art-Reactor --save`
 
 
 ###2.备注
@@ -48,7 +48,7 @@
 
 ###6.贡献者
 - 排名不分先后
-  
+
   [@hudiesu](http://github.com/hudiesu)
 
 
