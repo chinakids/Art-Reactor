@@ -62,9 +62,9 @@ module.exports = function(grunt) {
 
     // 注冊任务
     grunt.registerTask('default', [
+      'artReactorBuild',
     	'less:fontIco',
       'less:compress',
-			'artReactorBuild',
       'watch'
   	]);
     grunt.event.on('watch', function(action, filepath, target) {
