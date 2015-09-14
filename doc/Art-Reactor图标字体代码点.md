@@ -1547,4 +1547,29 @@
 			<td>move</td>
 			<td>$F20B</td>
 		</tr>
+        <tr>
+			<td>狐狸ued</td>
+			<td>fox-ued</td>
+			<td>$F20C</td>
+		</tr>
+        <tr>
+			<td>服务</td>
+			<td>supervise</td>
+			<td>$F20D</td>
+		</tr>
+        <tr>
+			<td>品牌保证</td>
+			<td>brand-guarantee</td>
+			<td>$F20E</td>
+		</tr>
+        <tr>
+			<td>身份证</td>
+			<td>identity-card</td>
+			<td>$F210</td>
+		</tr>
+        <tr>
+			<td>赔付</td>
+			<td>pei-fu</td>
+			<td>$F211</td>
+		</tr>
     	</table>
