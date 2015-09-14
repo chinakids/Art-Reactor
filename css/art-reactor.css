@@ -1,6 +1,6 @@
 @charset 'utf-8';
 /*
- * Art-Reactor - v3.6.0 (2015-09-08 16:52)
+ * Art-Reactor - v3.6.0 (2015-09-14 12:21)
  * 一个基于字体的适量图标库，团队内部积累用
  * Author:chinakids <494063570@qq.com>,hudiesu <zx84829759@163.com>
  */
@@ -1092,4 +1092,19 @@
 }
 .ar-move:after {
   content: "\F20B";
+}
+.ar-fox-ued:after {
+  content: "\F20C";
+}
+.ar-supervise:after {
+  content: "\F20D";
+}
+.ar-brand-guarantee:after {
+  content: "\F20E";
+}
+.ar-identity-card:after {
+  content: "\F210";
+}
+.ar-pei-fu:after {
+  content: "\F211";
 }
