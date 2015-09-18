@@ -7,27 +7,27 @@
 
 #####1.1 环境配置
 
--  *、基础环境：node、git、bower、grunt
+-  1、基础环境：node、git、bower、grunt
 
 
 #####1.2 安装项目
 
-- 1、 `bower install https://github.com/chinakids/Art-Reactor.git --save` or `bower install Art-Reactor --save`
+-  1、 `bower install https://github.com/chinakids/Art-Reactor.git --save` or `bower install Art-Reactor --save`
 
 
 ###2.备注
 
 -   1.源文件包含less源码、字体、svg图，目录结构如下
 
-		┬─Font-Reactor
-		├ css/  （css目录）
-		├ less/ （less源码目录）
-		├ font/ （字体目录）
-		├ svg/  （SVG目录）
-		├ doc/  （说明文档目录）
-		├ test/ （测试目录）
-    	├ dist/ （压缩版本）
-		···
+    ┬─Font-Reactor
+    ├ css/  （css目录）
+    ├ less/ （less源码目录）
+    ├ font/ （字体目录）
+    ├ svg/  （SVG目录）
+    ├ doc/  （说明文档目录）
+    ├ test/ （测试目录）
+    ├ dist/ （压缩版本）
+    ···
 
 ###3.涉及技能
 
@@ -56,6 +56,8 @@
 - 等待补充
 
 ###8.更新说明
+##### V3.6.0(2015-09-18)
+- 图标总数增加到349
 
 ##### V3.6.0(2015-07-24)
 - 图标总数增加到295
