@@ -1,13 +1,13 @@
 @charset 'utf-8';
 /*
- * Art-Reactor - v3.6.0 (2015-09-14 12:21)
+ * Art-Reactor - v3.6.3 (2015-09-18 17:51)
  * 一个基于字体的适量图标库，团队内部积累用
  * Author:chinakids <494063570@qq.com>,hudiesu <zx84829759@163.com>
  */
 @font-face {
   font-family: 'ArtReactor';
-  src: url('../font/ArtReactor.eot?v=3.3');
-  src: url('../font/ArtReactor.eot?#iearx&v=3.3') format('embedded-opentype'), url('../font/ArtReactor.woff2?v=3.3') format('woff2'), url('../font/ArtReactor.woff?v=3.3') format('woff'), url('../font/ArtReactor.ttf?v=3.3') format('truetype'), url('../font/ArtReactor.svg?v=3.3') format('svg');
+  src: url('../font/ArtReactor.eot?v=3.6.3');
+  src: url('../font/ArtReactor.eot?#iearx&v=3.6.3') format('embedded-opentype'), url('../font/ArtReactor.woff2?v=3.6.3') format('woff2'), url('../font/ArtReactor.woff?v=3.6.3') format('woff'), url('../font/ArtReactor.ttf?v=3.6.3') format('truetype'), url('../font/ArtReactor.svg?v=3.6.3') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -1012,7 +1012,7 @@
 .ar-ailipay:after {
   content: "\F18B";
 }
-.ar-apple:after {
+.ar-apple-logo:after {
   content: "\F190";
 }
 .ar-behance:after {
@@ -1107,4 +1107,109 @@
 }
 .ar-pei-fu:after {
   content: "\F211";
+}
+.ar-research-b:after {
+  content: "\F212";
+}
+.ar-pei-fu:after {
+  content: "\F213";
+}
+.ar-switch-power:after {
+  content: "\F214";
+}
+.ar-switch-on:after {
+  content: "\F215";
+}
+.ar-switch-off:after {
+  content: "\F216";
+}
+.ar-cut:after {
+  content: "\F217";
+}
+.ar-screenshot:after {
+  content: "\F218";
+}
+.ar-forfex:after {
+  content: "\F219";
+}
+.ar-mask:after {
+  content: "\F21A";
+}
+.ar-visible:after {
+  content: "\F21B";
+}
+.ar-invisible:after {
+  content: "\F21C";
+}
+.ar-diamond:after {
+  content: "\F21D";
+}
+.ar-beard:after {
+  content: "\F21E";
+}
+.ar-sailing:after {
+  content: "\F220";
+}
+.ar-cruises:after {
+  content: "\F221";
+}
+.ar-balloon:after {
+  content: "\F222";
+}
+.ar-fire-balloon:after {
+  content: "\F223";
+}
+.ar-ribbon:after {
+  content: "\F224";
+}
+.ar-fireworks:after {
+  content: "\F225";
+}
+.ar-exclamation-b:after {
+  content: "\F226";
+}
+.ar-warning-b:after {
+  content: "\F227";
+}
+.ar-position-b:after {
+  content: "\F228";
+}
+.ar-set-b:after {
+  content: "\F229";
+}
+.ar-theme-b:after {
+  content: "\F22A";
+}
+.ar-cloud-b:after {
+  content: "\F22B";
+}
+.ar-site-b:after {
+  content: "\F22C";
+}
+.ar-umbrella-b:after {
+  content: "\F22D";
+}
+.ar-envelope-b:after {
+  content: "\F22E";
+}
+.ar-usergroup-b:after {
+  content: "\F230";
+}
+.ar-account-b:after {
+  content: "\F231";
+}
+.ar-picture-b:after {
+  content: "\F232";
+}
+.ar-eo-b:after {
+  content: "\F233";
+}
+.ar-set-c:after {
+  content: "\F234";
+}
+.ar-file-b:after {
+  content: "\F235";
+}
+.ar-fingerprint:after {
+  content: "\F236";
 }
