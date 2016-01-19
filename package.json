@@ -1,6 +1,6 @@
 {
   "name": "Art-Reactor",
-  "version": "3.7.0",
+  "version": "3.7.8",
   "description": "一个基于字体的适量图标库，团队内部积累用",
   "main": "dist/art-reactor.min.css",
   "repository": {
