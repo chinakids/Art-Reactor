@@ -33,7 +33,8 @@ module.exports = function(grunt) {
         options: {
           banner: '/*\n * <%= pkg.name %> - Compress - v<%= pkg.version %> (<%= grunt.template.today("yyyy-mm-dd HH:MM") %>)\n * <%= pkg.description %>\n * Author:<%= pkg.author %>\n */\n',
           compress: true,
-          sourceMap:true
+          sourceMap:true,
+          sourceMapURL:'./art-reactor.min.css.map'
         },
         files: {
           "dist/art-reactor.min.css": "less/art-reactor.less",
