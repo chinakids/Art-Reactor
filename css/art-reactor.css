@@ -1,6 +1,6 @@
 @charset 'utf-8';
 /*
- * Art-Reactor - v3.7.8 (2016-02-06 10:43)
+ * Art-Reactor - v3.7.8 (2016-02-15 22:33)
  * 一个基于字体的适量图标库，团队内部积累用
  * Author:chinakids <494063570@qq.com>,hudiesu <zx84829759@163.com>
  */
@@ -19,6 +19,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   transform: translate(0, 0);
+  font-style: normal;
 }
 /* makes the font 33% larger relative to the icon container */
 .ar-lg-xx {
