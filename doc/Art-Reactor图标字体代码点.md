@@ -42,6 +42,16 @@
 			<td>warning-b</td>
 			<td>$F227</td>
 		</tr>		
+       <tr>
+			<td>登录</td>
+			<td>signin</td>
+			<td>$F10C</td>
+		</tr>		
+        <tr>
+			<td>退出</td>
+			<td>signout</td>
+			<td>$F10D</td>
+		</tr>		
 </table> 
 
 ### 优惠类
@@ -120,6 +130,26 @@
             <td>体重</td>
             <td>foot</td>
             <td>$F282</td>
+        </tr>
+        <tr>
+            <td>医生</td>
+            <td>doctor</td>
+            <td>$F294</td>
+        </tr>
+        <tr>
+            <td>图表</td>
+            <td>table</td>
+            <td>$F298</td>
+        </tr>
+        <tr>
+            <td>护盾</td>
+            <td>shield</td>
+            <td>$F302</td>
+        </tr>
+        <tr>
+            <td>DNA</td>
+            <td>dna</td>
+            <td>$F309</td>
         </tr>
 </table> 
 
@@ -411,9 +441,77 @@
         </tr>
 </table> 
 
+### 圣诞类
+<table>
+        <tr>
+            <td>圣诞树</td>
+            <td>christmas-tree</td>
+            <td>$F297</td>
+        </tr>
+        <tr>
+            <td>袜子</td>
+            <td>socks</td>
+            <td>$F299</td>
+        </tr>
+        <tr>
+            <td>麋鹿</td>
+            <td>elk</td>
+            <td>$F29A</td>
+        </tr>
+        <tr>
+            <td>礼物车</td>
+            <td>gift-car</td>
+            <td>$F29B</td>
+        </tr>
+        <tr>
+            <td>猫头鹰</td>
+            <td>owl</td>
+            <td>$F301</td>
+        </tr>
+</table>
 ### 活动类
 
 <table>
+        <tr>
+            <td>沙漏</td>
+            <td>hourglass</td>
+            <td>$F29E</td>
+        </tr>
+        <tr>
+            <td>钱袋</td>
+            <td>moneybag</td>
+            <td>$F300</td>
+        </tr>
+        <tr>
+            <td>火</td>
+            <td>flame</td>
+            <td>$F307</td>
+        </tr>
+        <tr>
+            <td>奖杯线</td>
+            <td>trophy</td>
+            <td>$F30C</td>
+        </tr>
+        <tr>
+            <td>奖杯实心</td>
+            <td>trophy-full</td>
+            <td>$F30D</td>
+        </tr>
+        <tr>
+            <td>奖章实心-b</td>
+            <td>medal-b</td>
+            <td>$F30E</td>
+        </tr>
+        <tr>
+            <td>奖章线性-b</td>
+            <td>medal-c</td>
+            <td>$F310</td>
+        </tr>
+        <tr>
+            <td>信用卡</td>
+            <td>card</td>
+            <td>$F313</td>
+        </tr>
         <tr>
             <td>钻石</td>
             <td>diamond</td>
@@ -629,6 +727,11 @@
 ### 常用功能类
 <table>
         <tr>
+            <td>扳手实心</td>
+            <td>wrench-full</td>
+            <td>$F29C</td>
+        </tr>
+        <tr>
             <td>点赞</td>
             <td>praise</td>
             <td>$F002</td>
@@ -716,7 +819,7 @@
         <tr>
             <td>设定</td>
             <td>wechat-pnbedit</td>
-            <td>$F014</td>
+            <td>$F010</td>
         </tr>
         <tr>
             <td>设置</td>
@@ -1190,22 +1293,22 @@
         <tr>
             <td>未选中-d</td>
             <td>round</td>
-            <td>$F024</td>
+            <td>$F204</td>
         </tr>
         <tr>
             <td>未选中-e</td>
             <td>rounded-ractangle</td>
-            <td>$F025</td>
+            <td>$F205</td>
         </tr>
         <tr>
             <td>选中-d</td>
             <td>chooseround</td>
-            <td>$F023</td>
+            <td>$F203</td>
         </tr>
         <tr>
             <td>选中-e</td>
             <td>chooseractangle</td>
-            <td>$F022</td>
+            <td>$F202</td>
         </tr>
         <tr>
             <td>关</td>
@@ -1441,6 +1544,46 @@
 
 ### 电子工具类
 <table>
+        <tr>
+            <td>音响实心</td>
+            <td>audio-full</td>
+            <td>$F295</td>
+        </tr>
+        <tr>
+            <td>音响线</td>
+            <td>audio</td>
+            <td>$F296</td>
+        </tr>
+        <tr>
+            <td>计算线</td>
+            <td>count</td>
+            <td>$F303</td>
+        </tr>
+        <tr>
+            <td>计算实心</td>
+            <td>count-full</td>
+            <td>$F304</td>
+        </tr>
+        <tr>
+            <td>计算器线</td>
+            <td>calculator</td>
+            <td>$F305</td>
+        </tr>
+        <tr>
+            <td>计算器实心</td>
+            <td>calculator-full</td>
+            <td>$F306</td>
+        </tr>
+        <tr>
+            <td>喇叭</td>
+            <td>horn</td>
+            <td>$F308</td>
+        </tr>
+        <tr>
+            <td>USB</td>
+            <td>usb</td>
+            <td>$F311</td>
+        </tr>
         <tr>
             <td>手机</td>
             <td>mobile-phone</td>
@@ -1713,6 +1856,16 @@
 
 <table>
         <tr>
+            <td>三明治</td>
+            <td>sandwich</td>
+            <td>$F29D</td>
+        </tr>
+        <tr>
+            <td>啤酒</td>
+            <td>beer</td>
+            <td>$F293</td>
+        </tr>
+        <tr>
             <td>汉堡</td>
             <td>hamburger</td>
             <td>$F14E</td>
@@ -1922,6 +2075,21 @@
             <td>github</td>
             <td>$F289</td>
         </tr>
+        <tr>
+            <td>索尼PS</td>
+            <td>sonyps</td>
+            <td>$F18C</td>
+        </tr>
+        <tr>
+            <td>滴滴打车</td>
+            <td>didi</td>
+            <td>$F18D</td>
+        </tr>
+        <tr>
+            <td>银联</td>
+            <td>yinlia</td>
+            <td>$F18E</td>
+        </tr>
 </table> 
 
 ### 天气类
@@ -2013,6 +2181,21 @@
 ### 文档编辑类
 
 <table>
+        <tr>
+            <td>钢笔线</td>
+            <td>pen</td>
+            <td>$F30A</td>
+        </tr>
+        <tr>
+            <td>钢笔实心</td>
+            <td>pen-full</td>
+            <td>$F30B</td>
+        </tr>
+        <tr>
+            <td>文档设置</td>
+            <td>fileset</td>
+            <td>$F312</td>
+        </tr>
         <tr>
             <td>过滤</td>
             <td>filtration</td>
