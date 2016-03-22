@@ -1,6 +1,6 @@
 @charset 'utf-8';
 /*
- * Art-Reactor - v3.7.9 (2016-02-25 10:46)
+ * Art-Reactor - v3.7.9 (2016-03-24 13:42)
  * 一个基于字体的适量图标库，团队内部积累用
  * Author:chinakids <494063570@qq.com>,hudiesu <zx84829759@163.com>
  */
@@ -208,6 +208,9 @@
 }
 .ar-ticket:after {
   content: "\F277";
+}
+.ar-gene:after {
+  content: "\F314";
 }
 .ar-medicalkit:after {
   content: "\F242";
@@ -867,7 +870,7 @@
   content: "\F02D";
 }
 .ar-submit-circle:after {
-  content: "\F221";
+  content: "\F02E";
 }
 .ar-share-left:after {
   content: "\F060";
