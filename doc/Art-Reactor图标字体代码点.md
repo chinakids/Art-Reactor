@@ -82,11 +82,6 @@
 ### 医疗类
 <table>
         <tr>
-            <td>基因图</td>
-            <td>gene</td>
-            <td>$F314</td>
-        </tr>
-        <tr>
             <td>医药箱</td>
             <td>medicalkit</td>
             <td>$F242</td>
@@ -1223,7 +1218,7 @@
         <tr>
             <td>提交-a</td>
             <td>submit-circle</td>
-            <td>$F02E</td>
+            <td>$F221</td>
         </tr>
         <tr>
             <td>分享左</td>

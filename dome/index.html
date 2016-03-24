@@ -43,7 +43,7 @@
       <div class="navbar navbar-default" role="navigation">
         <div class="container">
           <div class="navbar-header">
-            <a class="navbar-brand" href="#/">Art-Reactor | 字体图标集 - 当前总数{{list.length}}枚</a>
+            <a class="navbar-brand" href="#/">Art-Reactor | 字体图标集 - 当前总数{{len}}枚</a>
           </div>
           <div class="form-group pull-right col-xs-3">
             <input type="search" class="form-control" ng-model="search.cls" placeholder="输入关键字搜索···">
@@ -56,11 +56,14 @@
       <div class="alert alert-info" role="alert">
         详细使用方法以及下载请<a href="../" class="alert-link">戳这里~</a>
       </div>
-      <ul class="clearfix">
-      <li ng-repeat="item in list| filter:search" ng-click="modeal(item)"><i class="ar ar-{{item.cls}}"></i><p ng-bind="item.cls">
-          加载中···
-        </p></li>
-      </ul>
+      <div class="box" ng-repeat="item in list">
+        <h4 ng-bind="item.title"></h4>
+        <ul class="clearfix">
+          <li ng-repeat="i in item.data | filter:search" ng-click="modeal(i)"><i class="ar ar-{{i.cls}}"></i><p ng-bind="i.cls">
+              加载中···
+            </p></li>
+        </ul>
+      </div>
       <!-- Modal -->
       <div class="modal fade" ng-class="{'in':click}" id="myModal" tabindex="-1" role="dialog">
         <div class="modal-dialog" role="document">
@@ -101,6 +104,11 @@
         $scope.test = 'holle word!';
         $scope.list = data;
         $scope.click = false;
+        var len = 0;
+        for (var i = 0; i < $scope.list.length; i++) {
+          len += parseInt($scope.list[i].data.length);
+        }
+        $scope.len = len;
         $scope.modeal = function(item){
           $scope.click = true;
           $scope.title = item.des;
